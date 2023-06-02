@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:p="http://www.springframework.org/schema/p"
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+<bean id ="manoj" class = "model1.Bank"> 
+<property name="id" value = "1" ></property>
+<property name="name" value = "Ashwini" ></property>
+<property name="accountNumber" value = "086763" ></property>
+</bean>
+
+<bean id ="manoj1" class = "model1.Bank"> 
+<property name="id" value = "2" ></property>
+<property name="name" value = "Suresh" ></property>
+<property name="accountNumber" value = "234786" ></property>
+</bean>
+
+<bean id ="manoj2" class = "model1.Bank"> 
+<property name="id" value = "3" ></property>
+<property name="name" value = "Rathna" ></property>
+<property name="accountNumber" value = "567199" ></property>
+</bean>
+
+
+
+</beans>
